@@ -1,0 +1,38 @@
+.btn{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn:active{
+    transform: scale(0.85);
+}
+
+.btn.ghost{
+    background: transparent;
+    border: 1px solid var(--text-cl);
+    color: var(--text-cl);
+}
+
+.btn.ghost:hover{
+    background: #000;
+    color: white;
+}
+
+.btn.cl{
+    background: var(--secondary-cl);
+    color: #fff
+}
+
+.btn.cl:hover{
+    opacity: .75;
+}
+
+.btn.full{
+    width: 100%;
+    height: 52px;
+}

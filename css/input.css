@@ -1,0 +1,38 @@
+.inp-group{
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inp-group > label{
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+.inp-group > input{
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+    background: #EDEFF2;
+    outline: none;
+    border: none;
+    padding :5px 15px;
+}
+.inp-group > input::placeholder{
+    color: var(--placeHolder-cl)
+}
+.inp-group > input:focus{
+    color: var(--primary-cl)
+}
+.inp-group > input:hover{
+    border:1px solid var(--primary-cl)
+}
+
+.inp-group.half{
+    width: 370px;
+}
+.inp-group.full{
+    width: 100%;
+}
